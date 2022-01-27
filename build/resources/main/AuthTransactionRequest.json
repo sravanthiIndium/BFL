@@ -1,0 +1,224 @@
+{
+  "Request": [
+    {
+      "Id": "1",
+      "Remarks": "",
+      "JsonTag": "DEALERID",
+      "DataType": "N",
+      "Description": "Dealer ID",
+      "Min_len": "1",
+      "Max_len": "10",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "2",
+      "Remarks": "Should be Unique for each request",
+      "JsonTag": "ORDERNO",
+      "DataType": "AN",
+      "Description": "ORDER NO",
+      "Min_len": "1",
+      "Max_len": "32",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "3",
+      "Remarks": "",
+      "JsonTag": "SCHEMEID",
+      "DataType": "N",
+      "Description": "Scheme ID",
+      "Min_len": "1",
+      "Max_len": "15",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "4",
+      "Remarks": "",
+      "JsonTag": "MANFID",
+      "DataType": "N",
+      "Description": "Manufacturer ID",
+      "Min_len": "0",
+      "Max_len": "24",
+      "IsMandatory": "No"
+    },
+    {
+      "Id": "5",
+      "Remarks": "",
+      "JsonTag": "ASSETID",
+      "DataType": "N",
+      "Description": "Asset ID",
+      "Min_len": "0",
+      "Max_len": "10",
+      "IsMandatory": "No"
+    },
+    {
+      "Id": "6",
+      "Remarks": "",
+      "JsonTag": "LOANAMT",
+      "DataType": "N",
+      "Description": "Loan Amount",
+      "Min_len": "1",
+      "Max_len": "15",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "7",
+      "Remarks": "",
+      "JsonTag": "TncACCEPT",
+      "DataType": "AN",
+      "Description": "Tnc Accept",
+      "Min_len": "0",
+      "Max_len": "1",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "8",
+      "Remarks": "",
+      "JsonTag": "CARDNUMBER",
+      "DataType": "N",
+      "Description": "CARDNUMBER",
+      "Min_len": "1",
+      "Max_len": "16",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "9",
+      "Remarks": "",
+      "JsonTag": "MOBILENO",
+      "DataType": "N",
+      "Description": "Mobile Number",
+      "Min_len": "0",
+      "Max_len": "10",
+      "IsMandatory": "No"
+    },
+    {
+      "Id": "10",
+      "Remarks": "",
+      "JsonTag": "OTPNO",
+      "DataType": "N",
+      "Description": "OTP Number",
+      "Min_len": "0",
+      "Max_len": "6",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "11",
+      "Remarks": "",
+      "JsonTag": "NAMEONCARD",
+      "DataType": "AN",
+      "Description": "Name on Card",
+      "Min_len": "0",
+      "Max_len": "50",
+      "IsMandatory": "No"
+    },
+    {
+      "Id": "12",
+      "Remarks": "",
+      "JsonTag": "IPADDR",
+      "DataType": "AN",
+      "Description": "IP Address",
+      "Min_len": "1",
+      "Max_len": "15",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "13",
+      "Remarks": "",
+      "JsonTag": "Tenure",
+      "DataType": "N",
+      "Description": "Tenure",
+      "Min_len": "0",
+      "Max_len": "2",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "14",
+      "Remarks": "Delivery PIN Code",
+      "JsonTag": "PIN",
+      "DataType": "N",
+      "Description": "Pin Code",
+      "Min_len": "1",
+      "Max_len": "6",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "15",
+      "Remarks": "Unique Request ID",
+      "JsonTag": "REQUESTID",
+      "DataType": "AN",
+      "Description": "Request ID",
+      "Min_len": "1",
+      "Max_len": "50",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "16",
+      "Remarks": "",
+      "JsonTag": "VALIDATIONKEY",
+      "DataType": "N",
+      "Description": "Validation Key",
+      "Min_len": "1",
+      "Max_len": "24",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "17",
+      "Remarks": "",
+      "JsonTag": "SALETYPE",
+      "DataType": "AN",
+      "Description": "Sale Type",
+      "Min_len": "0",
+      "Max_len": "20",
+      "IsMandatory": "No"
+    },
+    {
+      "Id": "18",
+      "Remarks": "",
+      "JsonTag": "PRODDESC",
+      "DataType": "AN",
+      "Description": "Product Description",
+      "Min_len": "1",
+      "Max_len": "10",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "19",
+      "Remarks": "",
+      "JsonTag": "REQUESTDATE1",
+      "DataType": "N",
+      "Description": "Request Date 1",
+      "Min_len": "0",
+      "Max_len": "14",
+      "IsMandatory": "No"
+    },
+    {
+      "Id": "20",
+      "Remarks": "DDMMYYYY",
+      "JsonTag": "REQUESTDATE2",
+      "DataType": "N",
+      "Description": "Request Date 2",
+      "Min_len": "0",
+      "Max_len": "14",
+      "IsMandatory": "No"
+    },
+    {
+      "Id": "21",
+      "Remarks": "DDMMYYYY",
+      "JsonTag": "REQUESTTEXT1",
+      "DataType": "N",
+      "Description": "Request Text 1",
+      "Min_len": "0",
+      "Max_len": "15",
+      "IsMandatory": "No"
+    },
+    {
+      "Id": "22",
+      "Remarks": "",
+      "JsonTag": "REQUESTTEXT2",
+      "DataType": "N",
+      "Description": "Request Text 2",
+      "Min_len": "0",
+      "Max_len": "2",
+      "IsMandatory": "No"
+    }
+  ]
+}

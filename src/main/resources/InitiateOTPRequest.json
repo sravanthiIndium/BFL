@@ -1,0 +1,202 @@
+{
+  "Request": [
+    {
+      "Id": "1",
+      "ParamName": "Card Number",
+      "JsonTag": "CARDNUMBER",
+      "DataType": "N",
+      "Min_len": "1",
+      "Max_len": "16",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "2",
+      "ParamName": "Order Number",
+      "JsonTag": "ORDERNO",
+      "DataType": "AN",
+      "Min_len": "4",
+      "Max_len": "32",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "3",
+      "ParamName": "Dealer ID",
+      "JsonTag": "DEALERID",
+      "DataType": "N",
+      "Min_len": "2",
+      "Max_len": "10",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "4",
+      "ParamName": "Validation Key",
+      "JsonTag": "VALIDATIONKEY",
+      "DataType": "N",
+      "Min_len": "10",
+      "Max_len": "24",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "5",
+      "ParamName": "Request ID",
+      "JsonTag": "REQUESTID",
+      "DataType": "AN",
+      "Min_len": "4",
+      "Max_len": "50",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "6",
+      "ParamName": "Request Date 1",
+      "JsonTag": "REQUESTDATE1",
+      "DataType": "N",
+      "Min_len": "0",
+      "Max_len": "14",
+      "IsMandatory": "No"
+    },
+    {
+      "Id": "7",
+      "ParamName": "Request Date 2",
+      "JsonTag": "REQUESTDATE2",
+      "DataType": "N",
+      "Min_len": "0",
+      "Max_len": "14",
+      "IsMandatory": "No"
+    },
+    {
+      "Id": "8",
+      "ParamName": "Request Text 1",
+      "JsonTag": "REQUESTTEXT1",
+      "DataType": "N",
+      "Min_len": "0",
+      "Max_len": "15",
+      "IsMandatory": "No"
+    },
+    {
+      "Id": "9",
+      "ParamName": "Request Text 2",
+      "JsonTag": "REQUESTTEXT2",
+      "DataType": "N",
+      "Min_len": "0",
+      "Max_len": "2",
+      "IsMandatory": "No"
+    },
+    {
+      "Id": "10",
+      "ParamName": "Manufacturer ID",
+      "JsonTag": "Manufacturer",
+      "DataType": "AN",
+      "Min_len": "0",
+      "Max_len": "10",
+      "IsMandatory": "No"
+    },
+    {
+      "Id": "11",
+      "ParamName": "Asset ID",
+      "JsonTag": "ASSETID",
+      "DataType": "N",
+      "Min_len": "0",
+      "Max_len": "10",
+      "IsMandatory": "No"
+    },
+    {
+      "Id": "12",
+      "ParamName": "Loan Amount",
+      "JsonTag": "LOANAMT",
+      "DataType": "N",
+      "Min_len": "0",
+      "Max_len": "15",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "13",
+      "ParamName": "TNC Accept",
+      "JsonTag": "TncACCEPT",
+      "DataType": "C",
+      "Min_len": "0",
+      "Max_len": "1",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "14",
+      "ParamName": "OTPNO",
+      "JsonTag": "OTPNO",
+      "DataType": "N",
+      "Min_len": "0",
+      "Max_len": "6",
+      "IsMandatory": "No"
+    },
+    {
+      "Id": "15",
+      "ParamName": "ParamName on card",
+      "JsonTag": "NAMEONCARD",
+      "DataType": "AN",
+      "Min_len": "0",
+      "Max_len": "26",
+      "IsMandatory": "No"
+    },
+    {
+      "Id": "16",
+      "ParamName": "IP Address",
+      "JsonTag": "IPADDR",
+      "DataType": "AN",
+      "Min_len": "0",
+      "Max_len": "15",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "17",
+      "ParamName": "Tenure",
+      "JsonTag": "Tenure",
+      "DataType": "N",
+      "Min_len": "0",
+      "Max_len": "2",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "18",
+      "ParamName": "PIN Code",
+      "JsonTag": "PIN",
+      "DataType": "N",
+      "Min_len": "0",
+      "Max_len": "6",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "19",
+      "ParamName": "Sale Type",
+      "JsonTag": "SALETYPE",
+      "DataType": "AN",
+      "Min_len": "0",
+      "Max_len": "20",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "20",
+      "ParamName": "Product Description",
+      "JsonTag": "PRODDESC",
+      "DataType": "AN",
+      "Min_len": "0",
+      "Max_len": "100",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "21",
+      "ParamName": "Scheme ID",
+      "JsonTag": "SCHEMEID",
+      "DataType": "N",
+      "Min_len": "0",
+      "Max_len": "15",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "22",
+      "ParamName": "Mobile Number",
+      "JsonTag": "MOBILENO",
+      "DataType": "N",
+      "Min_len": "0",
+      "Max_len": "10",
+      "IsMandatory": "No"
+    }
+  ]
+}

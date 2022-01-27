@@ -1,0 +1,119 @@
+{
+  "Request": [
+    {
+      "Id": "1",
+      "ParamName": "DEALERID",
+      "JsonTag": "DEALERID",
+      "DataType": "N",
+      "Min_len": "1",
+      "Max_len": "15",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "2",
+      "ParamName": "BFL Requery ID",
+      "JsonTag": "REQUERYID",
+      "DataType": "AN",
+      "Min_len": "1",
+      "Max_len": "25",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "3",
+      "Remarks": "",
+      "JsonTag": "CARDNUMBER",
+      "DataType": "N",
+      "Description": "CARDNUMBER",
+      "Min_len": "1",
+      "Max_len": "16",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "4",
+      "Remarks": "",
+      "JsonTag": "ORDERNO",
+      "DataType": "AN",
+      "Description": "ORDER NO",
+      "Min_len": "1",
+      "Max_len": "32",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "5",
+      "Remarks": "",
+      "JsonTag": "LOANAMT",
+      "DataType": "N",
+      "Description": "Loan Amount",
+      "Min_len": "1",
+      "Max_len": "15",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "6",
+      "ParamName": "Validation Key",
+      "JsonTag": "VALIDATIONKEY",
+      "DataType": "AN",
+      "Min_len": "1",
+      "Max_len": "25",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "7",
+      "ParamName": "Request ID",
+      "JsonTag": "REQUESTID",
+      "DataType": "AN",
+      "Min_len": "1",
+      "Max_len": "50",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "8",
+      "ParamName": "Acquiring Channel ID",
+      "JsonTag": "ACQCHNLID",
+      "DataType": "N",
+      "Min_len": "1",
+      "Max_len": "2",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "9",
+      "Remarks": "",
+      "JsonTag": "REQUESTDATE1",
+      "DataType": "N",
+      "Description": "Request Date 1",
+      "Min_len": "0",
+      "Max_len": "14",
+      "IsMandatory": "No"
+    },
+    {
+      "Id": "10",
+      "Remarks": "DDMMYYYY",
+      "JsonTag": "REQUESTDATE2",
+      "DataType": "N",
+      "Description": "Request Date 2",
+      "Min_len": "0",
+      "Max_len": "14",
+      "IsMandatory": "No"
+    },
+    {
+      "Id": "11",
+      "Remarks": "DDMMYYYY",
+      "JsonTag": "REQUESTTEXT1",
+      "DataType": "N",
+      "Description": "Request Text 1",
+      "Min_len": "0",
+      "Max_len": "15",
+      "IsMandatory": "No"
+    },
+    {
+      "Id": "12",
+      "Remarks": "",
+      "JsonTag": "REQUESTTEXT2",
+      "DataType": "N",
+      "Description": "Request Text 2",
+      "Min_len": "0",
+      "Max_len": "2",
+      "IsMandatory": "No"
+    }
+  ]
+}

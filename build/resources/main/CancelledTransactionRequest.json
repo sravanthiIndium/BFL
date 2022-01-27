@@ -1,0 +1,104 @@
+{
+  "Request": [
+    {
+      "Id": "1",
+      "Remarks": "Dealer Code",
+      "JsonTag": "DEALERID",
+      "DataType": "N",
+      "Description": "Dealer ID",
+      "Min_len": "1",
+      "Max_len": "10",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "2",
+      "Remarks": "Deal ID generated post Authorization",
+      "JsonTag": "DEALID",
+      "DataType": "AN",
+      "Description": "Deal ID",
+      "Min_len": "1",
+      "Max_len": "16",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "3",
+      "Remarks": "Amount to be cancelled",
+      "JsonTag": "LOANAMT",
+      "DataType": "N",
+      "Description": "Loan Amount",
+      "Min_len": "1",
+      "Max_len": "15",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "4",
+      "Remarks": "Validation Key",
+      "JsonTag": "VALIDATIONKEY",
+      "DataType": "N",
+      "Description": "VALIDATION KEY",
+      "Min_len": "1",
+      "Max_len": "24",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "5",
+      "Remarks": "Order Number at time of Authorization",
+      "JsonTag": "ORDERNO",
+      "DataType": "AN",
+      "Description": "Order Number",
+      "Min_len": "1",
+      "Max_len": "23",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "6",
+      "Remarks": "Unique Request ID",
+      "JsonTag": "REQUESTID",
+      "DataType": "AN",
+      "Description": "Request ID",
+      "Min_len": "1",
+      "Max_len": "50",
+      "IsMandatory": "Yes"
+    },
+    {
+      "Id": "7",
+      "Remarks": "",
+      "JsonTag": "REQUESTDATE1",
+      "DataType": "N",
+      "Description": "REQUEST DATE1",
+      "Min_len": "0",
+      "Max_len": "14",
+      "IsMandatory": "No"
+    },
+    {
+      "Id": "8",
+      "Remarks": "",
+      "JsonTag": "REQUESTDATE2",
+      "DataType": "N",
+      "Description": "REQUEST DATE2",
+      "Min_len": "0",
+      "Max_len": "14",
+      "IsMandatory": "No"
+    },
+    {
+      "Id": "9",
+      "Remarks": "",
+      "JsonTag": "REQUESTTEXT1",
+      "DataType": "N",
+      "Description": "REQUEST TEXT1",
+      "Min_len": "0",
+      "Max_len": "15",
+      "IsMandatory": "No"
+    },
+    {
+      "Id": "10",
+      "Remarks": "",
+      "JsonTag": "REQUESTTEXT2",
+      "DataType": "N",
+      "Description": "REQUEST TEXT2",
+      "Min_len": "0",
+      "Max_len": "2",
+      "IsMandatory": "No"
+    }
+  ]
+}
